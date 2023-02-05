@@ -5,9 +5,9 @@ import { BsImage } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer className="bg-[#1C3764] py-20">
-      <div className="container mx-auto md:px-8 px-4 space-y-10">
-        <div className="grid md:grid-cols-5 grid-cols-1 gap-10">
-          <div className="md:col-span-2 col-span-1  space-y-6">
+      <div className="container mx-auto space-y-10 px-4 md:px-8">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-5">
+          <div className="col-span-1 space-y-6  md:col-span-2">
             <div>
               <Image
                 src="https://i.ibb.co/RB6rxmV/footer-Logo.png"
@@ -20,25 +20,25 @@ const Footer = () => {
               We take care of your health with <br /> regular and fun exercise
             </p>
             <div className="flex gap-3">
-              <div className="bg-[#E275CD] md:p-4 p-2">
+              <div className="bg-[#E275CD] p-2 md:p-4">
                 <BsImage color="white" size={20} />
               </div>
-              <div className="bg-[#E275CD] md:p-4 p-2">
+              <div className="bg-[#E275CD] p-2 md:p-4">
                 <BsImage color="white" size={20} />
               </div>
-              <div className="bg-[#E275CD] md:p-4 p-2">
+              <div className="bg-[#E275CD] p-2 md:p-4">
                 <BsImage color="white" size={20} />
               </div>
-              <div className="bg-[#E275CD] md:p-4 p-2">
+              <div className="bg-[#E275CD] p-2 md:p-4">
                 <BsImage color="white" size={20} />
               </div>
-              <div className="bg-[#E275CD] md:p-4 p-2">
+              <div className="bg-[#E275CD] p-2 md:p-4">
                 <BsImage color="white" size={20} />
               </div>
             </div>
           </div>
           <div className="col-span-1">
-            <ul className="text-gray-400 space-y-4">
+            <ul className="space-y-4 text-gray-400">
               <li>
                 <h3 className="text-white">Program</h3>
               </li>
@@ -49,7 +49,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-1">
-            <ul className="text-gray-400 space-y-4">
+            <ul className="space-y-4 text-gray-400">
               <li>
                 <h3 className="text-white">About Us</h3>
               </li>
@@ -59,7 +59,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-span-1">
-            <ul className="text-gray-400 space-y-4">
+            <ul className="space-y-4 text-gray-400">
               <li>
                 <h3 className="text-white">Blog</h3>
               </li>

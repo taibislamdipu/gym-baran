@@ -50,9 +50,9 @@ const ProgramList = () => {
 
   const ProgramComponent = ({ item }) => {
     return (
-      <div className="flex items-center gap-4 col-span-1">
+      <div className="col-span-1 flex items-center gap-4">
         <div
-          className={`bg-gradient-to-r from-[#5478EF] to-[#D6DFFF] rounded-full w-fit p-3`}
+          className={`w-fit rounded-full bg-gradient-to-r from-[#5478EF] to-[#D6DFFF] p-3`}
         >
           <Image src={item?.image} width="34" height="43" alt="gymnast-girl" />
         </div>
@@ -67,11 +67,11 @@ const ProgramList = () => {
   };
 
   return (
-    <div className="container mx-auto md:px-8 px-4 space-y-10">
+    <div className="container mx-auto space-y-10 px-4 md:px-8">
       <h2 className="text-center">
         Programs that can <br /> be taken
       </h2>
-      <div className="grid md:grid-cols-3 col-span-1 gap-8">
+      <div className="col-span-1 grid gap-8 md:grid-cols-3">
         {programData.map((item, id) => (
           <ProgramComponent key={id} item={item} />
         ))}

@@ -4,7 +4,7 @@ import { AiFillRightCircle, AiOutlineArrowRight } from "react-icons/ai";
 
 const Workout = () => {
   return (
-    <div className="md:grid grid-cols-2 flex flex-col-reverse md:gap-8 gap-8 items-center container mx-auto md:px-8 px-4">
+    <div className="container mx-auto flex grid-cols-2 flex-col-reverse items-center gap-8 px-4 md:grid md:gap-8 md:px-8">
       <div className="col-span-1">
         <Image
           src="https://i.ibb.co/XXbp4KS/workout-img.png"
@@ -25,7 +25,7 @@ const Workout = () => {
           routine. Even at home we still have to be diligent in exercising,
           either alone or with your friends at home.
         </p>
-        <button className="bg-blue flex items-center px-4 py-3 gap-14 text-white">
+        <button className="flex items-center gap-14 bg-blue px-4 py-3 text-white">
           <span>Get Started</span>
           <AiOutlineArrowRight size={23} />
         </button>

@@ -4,8 +4,8 @@ import { AiFillPlayCircle, AiFillRightCircle } from "react-icons/ai";
 
 const Main = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center container mx-auto md:px-8 px-4">
-      <div className="md:grid grid-cols-2 gap-4 space-y-4 md:space-y-0 mt-10">
+    <div className="container mx-auto flex h-screen w-full items-center justify-center px-4 md:px-8">
+      <div className="mt-10 grid-cols-2 gap-4 space-y-4 md:grid md:space-y-0">
         <div className="col-span-1 flex flex-col justify-center space-y-8">
           <h1>
             Healthy in side <br />
@@ -17,19 +17,19 @@ const Main = () => {
             routine.
           </p>
           <div className="flex gap-4">
-            <button className="flex items-center px-4 gap-8 py-2 bg-blue text-white">
+            <button className="flex items-center gap-8 bg-blue px-4 py-2 text-white">
               Get Started
               <AiFillRightCircle className="mr-2" size={23} />
             </button>
 
-            <button className="bg-white flex items-center px-4 py-3 gap-4 text-blue">
+            <button className="flex items-center gap-4 bg-white px-4 py-3 text-blue">
               <AiFillPlayCircle size={23} />
               Learn more
             </button>
           </div>
           <div>
             <p className="text-black">Brands:</p>
-            <div className="flex md:justify-start justify-between gap-4 items-center">
+            <div className="flex items-center justify-between gap-4 md:justify-start">
               <div>
                 <Image
                   src="https://i.ibb.co/27KT1gg/nike.png"

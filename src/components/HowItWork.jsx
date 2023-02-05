@@ -3,7 +3,7 @@ import React from "react";
 
 const HowItWork = () => {
   return (
-    <div className="md:grid grid-cols-2 flex flex-col-reverse md:gap-8 gap-8 items-center container mx-auto md:px-8 px-4">
+    <div className="container mx-auto flex grid-cols-2 flex-col-reverse items-center gap-8 px-4 md:grid md:gap-8 md:px-8">
       <div className="col-span-1">
         <Image
           src="https://i.ibb.co/1nqsLcM/how-It-Work.png"
@@ -15,13 +15,13 @@ const HowItWork = () => {
       <div className="col-span-1 space-y-8">
         <h2>How it works?</h2>
         <div className="space-y-4">
-          <p className="p-4 rounded-xl shadow-2xl">
+          <p className="rounded-xl p-4 shadow-2xl">
             The body becomes sick because of rarely exercise
           </p>
-          <p className="p-4 rounded-xl shadow-lg text-gray-400">
+          <p className="rounded-xl p-4 text-gray-400 shadow-lg">
             Dont give up in order to get a healthy and ideal body
           </p>
-          <p className="p-4 rounded-xl shadow-lg text-gray-400">
+          <p className="rounded-xl p-4 text-gray-400 shadow-lg">
             Become addicted to the exercise that is given
           </p>
         </div>

@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" md:bg-[#F8E9FB] bg-white  w-full h-20 z-10">
-      <div className="flex justify-between items-center w-full h-full container mx-auto md:px-8 px-4">
+    <div className=" z-10 h-20 w-full bg-white md:bg-[#F8E9FB]">
+      <div className="container mx-auto flex h-full w-full items-center justify-between px-4 md:px-8">
         <div>
           <Image
             src="https://i.ibb.co/MsSc60n/logo.png"
@@ -22,7 +22,7 @@ const Navbar = () => {
           />
         </div>
         <div>
-          <ul className="hidden md:flex items-center space-x-9">
+          <ul className="hidden items-center space-x-9 md:flex">
             <Link href="/">
               <li className="text-black">Home</li>
             </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
               <li className="text-black">About us</li>
             </Link>
             <Link href="#">
-              <li className="text-white bg-blue rounded-[10px] py-2 px-7">
+              <li className="rounded-[10px] bg-blue py-2 px-7 text-white">
                 Log in
               </li>
             </Link>
@@ -49,18 +49,18 @@ const Navbar = () => {
 
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 h-screen bg-black/70" : ""
+          nav ? "fixed left-0 top-0 h-screen bg-black/70 md:hidden" : ""
         }
       >
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
-              : "fixed left-[-100%] h-screen top-0 p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 h-screen w-[75%] bg-white p-10 duration-500 ease-in sm:w-[60%] md:w-[45%]"
+              : "fixed left-[-100%] top-0 h-screen p-10 duration-500 ease-in"
           }
         >
           <div className="space-y-4">
-            <div className="flex justify-between w-full items-center border-b py-4">
+            <div className="flex w-full items-center justify-between border-b py-4">
               <Image
                 src="https://i.ibb.co/MsSc60n/logo.png"
                 alt="Logo"
@@ -69,7 +69,7 @@ const Navbar = () => {
               />
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="cursor-pointer rounded-full p-3 shadow-lg shadow-gray-400"
               >
                 <AiOutlineClose />
               </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
                   <li className="text-black">About us</li>
                 </Link>
                 <Link href="/">
-                  <li className="text-white bg-blue rounded-[10px] py-2 px-7 w-fit">
+                  <li className="w-fit rounded-[10px] bg-blue py-2 px-7 text-white">
                     Log in
                   </li>
                 </Link>

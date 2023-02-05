@@ -5,10 +5,10 @@ import { BiDotsHorizontalRounded } from "react-icons/bi";
 
 const Testimonial = () => {
   return (
-    <div className="container mx-auto md:px-8 px-4 space-y-10">
+    <div className="container mx-auto space-y-10 px-4 md:px-8">
       <h2 className="text-center">Testimonials</h2>
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
-        <div className="space-y-10 bg-white col-span-1 shadow-lg rounded-lg md:p-10 p-4">
+      <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
+        <div className="col-span-1 space-y-10 rounded-lg bg-white p-4 shadow-lg md:p-10">
           <p className="flex gap-2">
             <span>
               <GoQuote size={23} />
@@ -19,7 +19,7 @@ const Testimonial = () => {
           </p>
 
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-[#E275CD] rounded-xl"></div>
+            <div className="h-16 w-16 rounded-xl bg-[#E275CD]"></div>
             <div>
               <p className="font-bold">Suketi Mantapo</p>
               <p>Designer Graphic</p>
@@ -27,7 +27,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="space-y-10 bg-white col-span-1 shadow-lg rounded-lg md:p-10 p-4">
+        <div className="col-span-1 space-y-10 rounded-lg bg-white p-4 shadow-lg md:p-10">
           <p className="flex gap-2">
             <span>
               <GoQuote size={23} />
@@ -38,7 +38,7 @@ const Testimonial = () => {
           </p>
 
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-[#E275CD] rounded-xl"></div>
+            <div className="h-16 w-16 rounded-xl bg-[#E275CD]"></div>
             <div>
               <p className="font-bold">Ada Apose</p>
               <p>Designer Graphic</p>
@@ -46,7 +46,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className="flex md:justify-end justify-center">
+      <div className="flex justify-center md:justify-end">
         <BiDotsHorizontalRounded size={23} />
       </div>
     </div>
