@@ -4,6 +4,8 @@ import Main from "@/components/Main";
 import MorningWorkout from "@/components/MorningWorkout";
 import Navbar from "@/components/Navbar";
 import Program from "@/components/Program";
+import ProgramList from "@/components/ProgramList";
+import Testimonial from "@/components/Testimonial";
 import Workout from "@/components/Workout";
 import Head from "next/head";
 import Image from "next/image";
@@ -28,6 +30,8 @@ export default function Home() {
         <Workout />
         <MorningWorkout />
         <HowItWork />
+        <ProgramList />
+        <Testimonial />
       </div>
     </div>
   );

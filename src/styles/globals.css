@@ -11,7 +11,7 @@
 
 @layer base {
   body {
-    @apply text-[#262524] tracking-wide;
+    @apply text-[#262524] tracking-wide bg-[#FBF9FD];
     font-family: "Karla", sans-serif;
   }
 
