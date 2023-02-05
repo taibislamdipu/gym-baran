@@ -14,17 +14,8 @@
     @apply text-[#262524] tracking-wide;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-bold;
-  }
-
   h1 {
-    @apply md:text-6xl text-3xl;
+    @apply md:text-6xl text-3xl font-bold;
   }
   h2 {
     @apply md:text-5xl text-3xl;

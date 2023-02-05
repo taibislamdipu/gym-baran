@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Main from "@/components/Main";
 import Navbar from "@/components/Navbar";
 import Program from "@/components/Program";
+import Workout from "@/components/Workout";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <div className="space-y-20">
         <About />
         <Program />
+        <Workout />
       </div>
     </div>
   );
