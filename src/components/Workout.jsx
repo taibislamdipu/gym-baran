@@ -8,8 +8,8 @@ const Workout = () => {
       <div className="col-span-1">
         <Image
           src="/../public/assets/workout-img.png"
-          width="416"
-          height="496"
+          width="665"
+          height="558"
           alt="workout"
         />
       </div>
