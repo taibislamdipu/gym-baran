@@ -63,7 +63,7 @@ const Navbar = () => {
             <div className="flex justify-between w-full items-center border-b py-4">
               <Image
                 src="https://i.ibb.co/MsSc60n/logo.png"
-                alt=""
+                alt="Logo"
                 width="141"
                 height="38"
               />
