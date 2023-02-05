@@ -28,7 +28,7 @@ const Main = () => {
             </button>
           </div>
           <div>
-            <p>Brands:</p>
+            <p className="text-black">Brands:</p>
             <div className="flex md:justify-start justify-between gap-4 items-center">
               <div>
                 <Image

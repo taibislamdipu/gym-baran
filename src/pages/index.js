@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Footer from "@/components/Footer";
 import HowItWork from "@/components/HowItWork";
 import Main from "@/components/Main";
 import MorningWorkout from "@/components/MorningWorkout";
@@ -32,6 +33,7 @@ export default function Home() {
         <HowItWork />
         <ProgramList />
         <Testimonial />
+        <Footer />
       </div>
     </div>
   );

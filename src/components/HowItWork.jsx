@@ -15,22 +15,13 @@ const HowItWork = () => {
       <div className="col-span-1 space-y-8">
         <h2>How it works?</h2>
         <div className="space-y-4">
-          <p
-            className="p-4 rounded-xl"
-            style={{ boxShadow: "0px 20px 80px rgba(51, 78, 123, 0.3)" }}
-          >
+          <p className="p-4 rounded-xl shadow-2xl">
             The body becomes sick because of rarely exercise
           </p>
-          <p
-            className="p-4 rounded-xl"
-            style={{ boxShadow: "0px 20px 80px rgba(51, 78, 123, 0.3)" }}
-          >
+          <p className="p-4 rounded-xl shadow-lg text-gray-400">
             Dont give up in order to get a healthy and ideal body
           </p>
-          <p
-            className="p-4 rounded-xl"
-            style={{ boxShadow: "0px 20px 80px rgba(51, 78, 123, 0.3)" }}
-          >
+          <p className="p-4 rounded-xl shadow-lg text-gray-400">
             Become addicted to the exercise that is given
           </p>
         </div>

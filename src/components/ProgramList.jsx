@@ -51,7 +51,7 @@ const ProgramList = () => {
     return (
       <div className="flex items-center gap-4 col-span-1">
         <div
-          className={`bg-gradient-to-r from-[${item?.from}] to-[${item?.to}] rounded-full w-fit p-3`}
+          className={`bg-gradient-to-r from-[#5478EF] to-[#D6DFFF] rounded-full w-fit p-3`}
         >
           <Image src={item?.image} width="34" height="43" alt="gymnast-girl" />
         </div>
