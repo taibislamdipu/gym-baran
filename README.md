@@ -1,4 +1,4 @@
-### Gym website landing page using Next.js & Tailwind.CSS.
+### Gym website landing page using Next.JS & Tailwind.CSS.
 
 #### Website : <a href="https://gym-baran-ochre.vercel.app/" target="_blank" rel="noopener">gym-baran.com</a>
 
@@ -15,7 +15,7 @@
 - 🖥 **Frontend:**
 
   - **Language:** `JavaScript`
-  - **Framework/Library:** `Next.Js`
+  - **Framework/Library:** `Next.JS`
   - **UI Toolkit:** `TailwindCSS`
 
 - 🎡 **Ecosystem:**
