@@ -16,13 +16,13 @@
   }
 
   h1 {
-    @apply md:text-6xl text-3xl font-bold;
+    @apply md:text-[56px] text-[28px] font-bold;
   }
   h2 {
-    @apply md:text-5xl text-3xl;
+    @apply md:text-[46px] text-[28px] font-bold;
   }
   h3 {
-    @apply md:text-[20px] text-base;
+    @apply md:text-[20px] text-base font-bold;
   }
 
   button {
