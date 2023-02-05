@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="md:col-span-2 col-span-1  space-y-6">
             <div>
               <Image
-                src="/../public/assets/footerLogo.png"
+                src="https://i.ibb.co/RB6rxmV/footer-Logo.png"
                 width="154"
                 height="52"
                 alt="logo"

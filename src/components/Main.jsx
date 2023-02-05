@@ -32,7 +32,7 @@ const Main = () => {
             <div className="flex md:justify-start justify-between gap-4 items-center">
               <div>
                 <Image
-                  src="/../public/assets/nike.png"
+                  src="https://i.ibb.co/27KT1gg/nike.png"
                   width="58"
                   height="27"
                   alt="brands"
@@ -40,7 +40,7 @@ const Main = () => {
               </div>
               <div>
                 <Image
-                  src="/../public/assets/adidas.png"
+                  src="https://i.ibb.co/kcKYB41/adidas.png"
                   width="53"
                   height="54"
                   alt="brands"
@@ -48,7 +48,7 @@ const Main = () => {
               </div>
               <div>
                 <Image
-                  src="/../public/assets/puma.png"
+                  src="https://i.ibb.co/n8tBNcj/puma.png"
                   width="80"
                   height="41"
                   alt="brands"
@@ -56,7 +56,7 @@ const Main = () => {
               </div>
               <div>
                 <Image
-                  src="/../public/assets/reebok.png"
+                  src="https://i.ibb.co/99cy29h/reebok.png"
                   width="119"
                   height="30"
                   alt="brands"
@@ -67,7 +67,7 @@ const Main = () => {
         </div>
         <div className="col-span-1">
           <Image
-            src="/../public/assets/hero-img.png"
+            src="https://i.ibb.co/TBZnqhF/hero-img.png"
             width="744"
             height="639"
             alt="workout image"

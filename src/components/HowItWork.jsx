@@ -6,7 +6,7 @@ const HowItWork = () => {
     <div className="md:grid grid-cols-2 flex flex-col-reverse md:gap-8 gap-8 items-center container mx-auto md:px-8 px-4">
       <div className="col-span-1">
         <Image
-          src="/../public/assets/howItWork.png"
+          src="https://i.ibb.co/1nqsLcM/how-It-Work.png"
           width="718"
           height="564"
           alt="workout"

@@ -9,7 +9,7 @@ const Program = () => {
         <div className="flex gap-4">
           <div className="bg-[#8988F2] rounded-[20px] w-[100px] h-[100px] items-center justify-center flex">
             <Image
-              src="/../public/assets/crucified-pose.png"
+              src="https://i.ibb.co/FsBsswh/crucified-pose.png"
               width="50"
               height="50"
               alt="workout"
@@ -29,7 +29,7 @@ const Program = () => {
         <div className="flex gap-4">
           <div className="bg-[#8988F2] rounded-[20px] w-[100px] h-[100px] items-center justify-center flex">
             <Image
-              src="/../public/assets/dancer-balance.png"
+              src="https://i.ibb.co/L6cNd9P/dancer-balance.png"
               width="50"
               height="50"
               alt="workout"
@@ -50,7 +50,7 @@ const Program = () => {
         <div className="flex gap-4">
           <div className="bg-[#8988F2] rounded-[20px] w-[100px] h-[100px] items-center justify-center flex">
             <Image
-              src="/../public/assets/dancer-motion.png"
+              src="https://i.ibb.co/5vGZQrp/dancer-motion.png"
               width="50"
               height="50"
               alt="workout"

@@ -24,7 +24,7 @@ const MorningWorkout = () => {
       </div>
       <div className="col-span-1">
         <Image
-          src="/../public/assets/morningWorkout.png"
+          src="https://i.ibb.co/y8f9k6g/morning-Workout.png"
           width="652"
           height="508"
           alt="Morning Workout"
