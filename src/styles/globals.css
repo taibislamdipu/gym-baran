@@ -11,7 +11,7 @@
 
 @layer base {
   body {
-    @apply bg-[#E5E5E5] text-[#262524] tracking-wide;
+    @apply text-[#262524] tracking-wide;
   }
 
   h1,
@@ -24,16 +24,16 @@
   }
 
   h1 {
-    @apply text-6xl sm:text-3xl;
+    @apply md:text-6xl text-3xl;
   }
   h2 {
-    @apply text-5xl	sm:text-3xl;
+    @apply md:text-5xl text-3xl;
   }
   h3 {
-    @apply text-xl sm:text-base;
+    @apply md:text-xl text-base;
   }
 
   button {
-    @apply shadow-xl shadow-[#334e7b] rounded-xl;
+    @apply shadow-lg hover:shadow-[#334e7b] transition rounded-lg;
   }
 }
