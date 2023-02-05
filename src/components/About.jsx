@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="md:grid grid-cols-3 gap-4 max-w-[1240px] container mx-auto md:px-8 px-4 space-y-4 md:space-y-0 items-center">
+    <div className="md:grid grid-cols-3 gap-4 container mx-auto md:px-8 px-4 space-y-4 md:space-y-0 items-center">
       <div className="col-span-1">
         <h2>
           Healthy in side

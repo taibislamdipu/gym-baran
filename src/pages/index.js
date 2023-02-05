@@ -15,8 +15,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <Main />
+      <div className="bg-gradient-to-b from-[#F8E9FB]">
+        <Navbar />
+        <Main />
+      </div>
 
       <div className="space-y-20">
         <About />

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-10">
+    <div className=" md:bg-[#F8E9FB] bg-white  w-full h-20 z-10">
       <div className="flex justify-between items-center w-full h-full container mx-auto md:px-8 px-4">
         <div>
           <Image

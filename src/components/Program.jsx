@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Program = () => {
   return (
-    <div className="max-w-[1240px] container mx-auto md:px-8 px-4">
+    <div className="container mx-auto md:px-8 px-4">
       <div className="md:flex space-y-10 md:space-y-0 justify-between md:p-16 p-4 rounded-[30px] text-white bg-[#6462F0]">
         <div className="flex gap-4">
           <div className="bg-[#8988F2] rounded-[20px] w-[100px] h-[100px] items-center justify-center flex">

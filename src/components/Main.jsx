@@ -4,8 +4,8 @@ import { AiFillPlayCircle, AiFillRightCircle } from "react-icons/ai";
 
 const Main = () => {
   return (
-    <div className="max-w-[1240px] w-full h-screen flex justify-center items-center container mx-auto md:px-8 px-4">
-      <div className="md:grid grid-cols-2 gap-4 mt-20 space-y-4 md:space-y-0">
+    <div className="w-full h-screen flex justify-center items-center container mx-auto md:px-8 px-4">
+      <div className="md:grid grid-cols-2 gap-4 space-y-4 md:space-y-0 mt-10">
         <div className="col-span-1 flex flex-col justify-center space-y-8">
           <h1>
             Healthy in side <br />
