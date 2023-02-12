@@ -14,6 +14,7 @@ const Main = () => {
         <div
           className="col-span-1 flex flex-col justify-center space-y-8"
           data-aos="fade-right"
+          data-aos-duration="500"
         >
           <h1>
             Healthy in side <br />
@@ -73,7 +74,11 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-1" data-aos="fade-left">
+        <div
+          className="col-span-1"
+          data-aos="fade-left"
+          data-aos-duration="500"
+        >
           <Image
             src="https://i.ibb.co/TBZnqhF/hero-img.png"
             width="744"

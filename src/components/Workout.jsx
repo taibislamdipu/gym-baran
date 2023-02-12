@@ -1,11 +1,15 @@
+import Aos from "aos";
 import Image from "next/image";
-import React from "react";
-import { AiFillRightCircle, AiOutlineArrowRight } from "react-icons/ai";
+import React, { useEffect } from "react";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Workout = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="container mx-auto flex grid-cols-2 flex-col-reverse items-center gap-8 px-4 md:grid md:gap-8 md:px-8">
-      <div className="col-span-1">
+      <div className="col-span-1" data-aos="fade-right">
         <Image
           src="https://i.ibb.co/XXbp4KS/workout-img.png"
           width="665"
@@ -13,7 +17,7 @@ const Workout = () => {
           alt="workout"
         />
       </div>
-      <div className="col-span-1 space-y-8">
+      <div className="col-span-1 space-y-8" data-aos="fade-left">
         <h2>
           Best full body
           <br />

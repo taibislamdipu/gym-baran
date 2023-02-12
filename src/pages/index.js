@@ -9,7 +9,6 @@ import ProgramList from "@/components/ProgramList";
 import Testimonial from "@/components/Testimonial";
 import Workout from "@/components/Workout";
 import Head from "next/head";
-import AOS from "aos";
 
 export default function Home() {
   return (

@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="container mx-auto grid-cols-3 items-center gap-4 space-y-4 px-4 md:grid md:space-y-0 md:px-8">
-      <div className="col-span-1">
+      <div className="col-span-1" data-aos="fade-right" data-aos-duration="500">
         <h2>
           Healthy in side
           <br />
           fresh out side
         </h2>
       </div>
-      <div className="col-span-2">
+      <div className="col-span-2" data-aos="fade-left" data-aos-duration="500">
         <p>
           Exercise is a very important need for our body. Health and fitness
           will be obtained if you can do regular exercise and run a healthy
