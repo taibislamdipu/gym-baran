@@ -9,23 +9,27 @@
   @apply border border-red-500;
 }
 
+.scroll-to-top {
+  padding: 5px !important;
+}
+
 @layer base {
   body {
-    @apply text-[#262524] tracking-wide bg-[#FBF9FD];
+    @apply bg-[#FBF9FD] tracking-wide text-[#262524];
     font-family: "Karla", sans-serif;
   }
 
   h1 {
-    @apply md:text-[56px] text-[28px] font-bold;
+    @apply text-[28px] font-bold md:text-[56px];
   }
   h2 {
-    @apply md:text-[46px] text-[28px] font-bold;
+    @apply text-[28px] font-bold md:text-[46px];
   }
   h3 {
-    @apply md:text-[20px] text-base font-bold;
+    @apply text-base font-bold md:text-[20px];
   }
 
   button {
-    @apply shadow-lg hover:shadow-[#334e7b] transition rounded-lg;
+    @apply rounded-lg shadow-lg transition hover:shadow-[#334e7b];
   }
 }

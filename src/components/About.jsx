@@ -1,10 +1,6 @@
-import Aos from "aos";
-import React, { useEffect } from "react";
+import React from "react";
 
 const About = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div
       className="container mx-auto grid-cols-3 items-center gap-4 space-y-4 px-4 md:grid md:space-y-0 md:px-8"

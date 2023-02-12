@@ -1,12 +1,8 @@
-import Aos from "aos";
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Workout = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div
       className="container mx-auto flex grid-cols-2 flex-col-reverse items-center gap-8 px-4 md:grid md:gap-8 md:px-8"

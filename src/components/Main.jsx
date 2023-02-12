@@ -1,12 +1,8 @@
-import Aos from "aos";
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 import { AiFillPlayCircle, AiFillRightCircle } from "react-icons/ai";
 
 const Main = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div
       className="container mx-auto flex h-screen w-full items-center justify-center px-4 md:px-8"

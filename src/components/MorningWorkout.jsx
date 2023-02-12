@@ -4,7 +4,10 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const MorningWorkout = () => {
   return (
-    <div className="container mx-auto flex grid-cols-2 flex-col-reverse items-center gap-8 px-4 md:grid md:gap-8 md:px-8">
+    <div
+      className="container mx-auto flex grid-cols-2 flex-col-reverse items-center gap-8 px-4 md:grid md:gap-8 md:px-8"
+      data-aos="fade-up"
+    >
       <div className="col-span-1 space-y-8">
         <h2>
           Daily morning
