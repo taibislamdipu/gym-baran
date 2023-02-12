@@ -1,11 +1,7 @@
-import Aos from "aos";
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 
 const ProgramList = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   const programData = [
     {
       id: "1",
@@ -72,14 +68,10 @@ const ProgramList = () => {
 
   return (
     <div className="container mx-auto space-y-10 px-4 md:px-8">
-      <h2 className="text-center" data-aos="fade-up">
+      <h2 className="text-center">
         Programs that can <br /> be taken
       </h2>
-      <div
-        className="col-span-1 grid gap-8 md:grid-cols-3"
-        data-aos="fade-up"
-        data-aos-duration="600"
-      >
+      <div className="col-span-1 grid gap-8 md:grid-cols-3">
         {programData.map((item, id) => (
           <ProgramComponent key={id} item={item} />
         ))}

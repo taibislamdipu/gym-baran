@@ -4,11 +4,7 @@ import { AiFillPlayCircle, AiFillRightCircle } from "react-icons/ai";
 
 const Main = () => {
   return (
-    <div
-      className="container mx-auto flex h-screen w-full items-center justify-center px-4 md:px-8"
-      data-aos="fade-in"
-      data-aos-duration="500"
-    >
+    <div className="container z-0 mx-auto flex h-screen w-full items-center justify-center px-4 md:px-8">
       <div className="mt-10 grid-cols-2 gap-4 space-y-4 md:grid md:space-y-0">
         <div className="col-span-1 flex flex-col justify-center space-y-8">
           <h1>

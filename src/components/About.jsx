@@ -2,11 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
-      className="container mx-auto grid-cols-3 items-center gap-4 space-y-4 px-4 md:grid md:space-y-0 md:px-8"
-      data-aos="fade-up"
-      data-aos-duration="500"
-    >
+    <div className="container mx-auto grid-cols-3 items-center gap-4 space-y-4 px-4 md:grid md:space-y-0 md:px-8">
       <div className="col-span-1">
         <h2>
           Healthy in side
