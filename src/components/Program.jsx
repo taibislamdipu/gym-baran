@@ -1,10 +1,18 @@
+import Aos from "aos";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Program = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="container mx-auto px-4 md:px-8">
+    <div
+      className="container mx-auto px-4 md:px-8"
+      data-aos="fade-up"
+      data-aos-duration="500"
+    >
       <div className="justify-between space-y-10 rounded-[30px] bg-[#6462F0] p-4 text-white md:flex md:space-y-0 md:p-16">
         <div className="flex gap-4">
           <div className="flex h-[100px] w-[100px] items-center justify-center rounded-[20px] bg-[#8988F2]">

@@ -1,13 +1,23 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useEffect } from "react";
 import { GoQuote } from "react-icons/go";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
+import Aos from "aos";
 
 const Testimonial = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="container mx-auto space-y-10 px-4 md:px-8">
-      <h2 className="text-center">Testimonials</h2>
-      <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
+      <h2 className="text-center" data-aos="fade-up">
+        Testimonials
+      </h2>
+      <div
+        className="grid grid-cols-1 gap-12 md:grid-cols-2"
+        data-aos="fade-up"
+        data-aos-duration="600"
+      >
         <div className="col-span-1 space-y-10 rounded-lg bg-white p-4 shadow-lg md:p-10">
           <p className="flex gap-2">
             <span>
