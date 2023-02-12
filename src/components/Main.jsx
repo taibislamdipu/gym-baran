@@ -1,12 +1,20 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { AiFillPlayCircle, AiFillRightCircle } from "react-icons/ai";
+import AOS from "aos";
 
 const Main = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="container mx-auto flex h-screen w-full items-center justify-center px-4 md:px-8">
       <div className="mt-10 grid-cols-2 gap-4 space-y-4 md:grid md:space-y-0">
-        <div className="col-span-1 flex flex-col justify-center space-y-8">
+        <div
+          className="col-span-1 flex flex-col justify-center space-y-8"
+          data-aos="fade-right"
+        >
           <h1>
             Healthy in side <br />
             <span className="text-[#8382EB]"> fresh</span> out side
@@ -65,7 +73,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1" data-aos="fade-left">
           <Image
             src="https://i.ibb.co/TBZnqhF/hero-img.png"
             width="744"
